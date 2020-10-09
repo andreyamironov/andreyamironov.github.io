@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SimpleScanBox.exe" version="1.0.0.50" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="SimpleScanBox.exe" version="1.0.0.51" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icons\SsCc.ico" asmv2:publisher="AMironov" asmv2:product="SimpleScan" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="SimpleScanBox" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="SimpleScanBox.exe" parameters="" />
   </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
   <trustInfo>
     <security>
       <applicationRequestMinimum>
@@ -102,17 +104,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpleScanBox.exe" size="254976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpleScanBox.exe" size="258560">
       <assemblyIdentity name="SimpleScanBox" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kdOdo2wAVZKw1g1DrdXI/lOMM5hmPGLLxTBwhzsfQko=</dsig:DigestValue>
+        <dsig:DigestValue>dBOPhAq5ZLqbqYaB5c95rUXNI2M1VMlgU2e+j9A9oc0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="Icons\SsCc.ico" size="3262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t5MeYMzru/NT5ADnr2tTT1z58KPj1Rf7wah8zMteYrM=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="SimpleScanBox.exe.config" size="5088">
     <hash>
       <dsig:Transforms>
